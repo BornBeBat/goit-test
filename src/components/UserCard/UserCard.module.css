@@ -30,17 +30,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 86px;
+  border-radius: 50%;
   width: 80px;
   height: 80px;
-  fill: #ebd8ff;
   box-shadow: inset 0 4px 3px 0 #fbf8ff, 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     inset 0 -2px 4px 0 #ae7be3;
   background-image: url('/public/ellipse.svg');
   background-size: auto;
   background-clip: border-box;
   background-position: top 0 left -5px;
-  background-color: #5736a3;
+  z-index: 100;
+}
+.imgInsideWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #471ca9;
 }
 .tweets {
   margin-bottom: 20px;
