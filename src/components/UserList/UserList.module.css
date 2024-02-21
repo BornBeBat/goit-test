@@ -1,0 +1,7 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  justify-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 2em;
+}

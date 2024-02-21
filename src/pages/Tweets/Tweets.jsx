@@ -1,10 +1,10 @@
-import { UserCard } from 'components';
+import { UserList } from 'components';
 import React from 'react';
 
 const Tweets = () => {
   return (
     <>
-      <UserCard />
+      <UserList />
     </>
   );
 };

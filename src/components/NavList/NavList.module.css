@@ -1,7 +1,7 @@
 .navList {
   display: flex;
   gap: 24px;
-  padding: 8px 0;
+  padding: 8px 24px;
   border-radius: 10px;
 
   background: linear-gradient(142deg, #4b2a99 0%, #5736a3 69.1%, #471ca9 100%);
