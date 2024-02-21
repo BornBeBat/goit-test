@@ -30,3 +30,6 @@ button {
   border: none;
   outline: none;
 }
+.active {
+  background-color: #5cd3a8 !important;
+}

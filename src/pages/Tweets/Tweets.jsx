@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import { UserList } from 'components';
+import { UserList, Filter, Button } from 'components';
 import { fetchUsers } from 'api/usersAPI';
+import s from './Tweets.module.css';
 
 const Tweets = () => {
   useEffect(() => {
@@ -9,6 +10,10 @@ const Tweets = () => {
 
   return (
     <>
+      <div className={s.navbar}>
+        <Button text={'go back'} />
+        <Filter />
+      </div>
       <UserList />
     </>
   );
