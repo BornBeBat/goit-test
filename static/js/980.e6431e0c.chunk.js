@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_test=self.webpackChunkgoit_test||[]).push([[980],{980:(t,e,a)=>{a.r(e),a.d(e,{default:()=>r});var s=a(43),c=a(785);const n=a(154).A.create({baseURL:"https://65afa59b2f26c3f2139b5b13.mockapi.io/users",params:{limit:3}});var o=a(579);const r=()=>((0,s.useEffect)((()=>{(async function(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:1;return(await n.get("/contacts",{params:{page:t}})).data})(2).then((t=>console.log(t)))}),[]),(0,o.jsx)(o.Fragment,{children:(0,o.jsx)(c.w2,{})}))}}]);
+//# sourceMappingURL=980.e6431e0c.chunk.js.map
