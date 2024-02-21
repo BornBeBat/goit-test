@@ -32,7 +32,7 @@ export const UserList = () => {
   return (
     <ul className={s.list}>
       {data.map(elemen => (
-        <UserCard data={elemen} />
+        <UserCard key={elemen.id} data={elemen} />
       ))}
     </ul>
   );
