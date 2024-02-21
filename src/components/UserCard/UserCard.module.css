@@ -1,0 +1,50 @@
+.item {
+  position: relative;
+  display: block;
+
+  padding: 20px 20px 36px;
+
+  border-radius: 20px;
+  width: 380px;
+
+  box-shadow: -3px 7px 21px 0 rgba(0, 0, 0, 0.23);
+  background: top 28px left 36px / auto no-repeat url('/public/fone.png'),
+    top 214px left 0 / auto no-repeat url('/public/line.png'),
+    linear-gradient(142deg, #471ca9 0%, #5736a3 69.1%, #4b2a99 100%);
+
+  & p {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ebd8ff;
+    text-align: center;
+  }
+}
+
+.logo {
+  margin-bottom: 136px;
+}
+
+.imgWrapper {
+  margin: 0 auto 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 86px;
+  width: 80px;
+  height: 80px;
+  fill: #ebd8ff;
+  box-shadow: inset 0 4px 3px 0 #fbf8ff, 0 4px 4px 0 rgba(0, 0, 0, 0.06),
+    inset 0 -2px 4px 0 #ae7be3;
+  background-image: url('/public/ellipse.svg');
+  background-size: auto;
+  background-clip: border-box;
+  background-position: top 0 left -5px;
+  background-color: #5736a3;
+}
+.tweets {
+  margin-bottom: 20px;
+}
+.followers {
+  margin-bottom: 28px;
+}
