@@ -20,7 +20,7 @@ export const UserCard = ({ data, onClick, idList }) => {
         {isChecked(idList, id)
           ? trallingComa(followers + 1)
           : trallingComa(followers)}
-        Followers
+        &nbsp;Followers
       </p>
       <Button onClick={() => onClick(id)} checked={isChecked(idList, id)} />
     </li>
