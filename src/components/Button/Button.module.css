@@ -11,6 +11,10 @@
   text-transform: uppercase;
   color: #373737;
   transition: all 350ms ease-in;
+
+  &:disabled {
+    background: grey;
+  }
 }
 
 .buttonUnchecked {

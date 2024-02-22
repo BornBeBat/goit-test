@@ -1,8 +1,11 @@
 import React, { Suspense } from 'react';
-import s from './Layout.module.css';
+import { ToastContainer } from 'react-toastify';
 import { Outlet } from 'react-router-dom';
-import Home from 'pages/Home/Home';
+
 import { NavList } from 'components';
+
+import 'react-toastify/dist/ReactToastify.css';
+import s from './Layout.module.css';
 
 export const Layout = () => {
   return (
@@ -11,10 +14,11 @@ export const Layout = () => {
         <NavList />
       </header>
       <main className={s.container}>
-        <Suspense fallback={<Home />}>
+        <Suspense fallback={<div>Loading</div>}>
           <Outlet />
         </Suspense>
       </main>
+      <ToastContainer />
     </>
   );
 };

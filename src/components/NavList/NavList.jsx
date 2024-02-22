@@ -1,7 +1,8 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import s from './NavList.module.css';
 
 export const NavList = () => {
+  const location = useLocation();
   return (
     <nav>
       <ul className={s.navList}>
@@ -11,7 +12,7 @@ export const NavList = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink className={s.link} to="/tweets">
+          <NavLink className={s.link} to="/tweets" state={{ from: location }}>
             Tweets
           </NavLink>
         </li>
