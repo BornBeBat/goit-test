@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/740.025cedac.chunk.css","mappings":"AAAA,sBACE,YAAa,CACb,QAAS,CACT,WACF","sources":["pages/Tweets/Tweets.module.css"],"sourcesContent":[".navbar {\n  display: flex;\n  gap: 30px;\n  width: 400px;\n}\n"],"names":[],"sourceRoot":""}
