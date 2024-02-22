@@ -20,8 +20,7 @@
 .buttonUnchecked {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.25);
   background: #ebd8ff;
-  &:hover,
-  &:focus {
+  &:hover {
     background: #aeecd1;
     box-shadow: 0 3px 3px 0 #454545;
   }
@@ -29,8 +28,7 @@
 .buttonChecked {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.25);
   background: #5cd3a8;
-  &:hover,
-  &:focus {
+  &:hover {
     background: #d9b4fe;
     box-shadow: 0 3px 3px 0 #454545;
   }

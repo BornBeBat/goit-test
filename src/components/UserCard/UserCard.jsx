@@ -1,11 +1,12 @@
 import logo from 'img/logo.png';
 
-import { trallingComa } from 'utils';
+import { trallingComa, isChecked } from 'utils';
 import { Button } from 'components';
 import s from './UserCard.module.css';
 
-export const UserCard = ({ data }) => {
-  const { tweets, followers, avatar } = data;
+export const UserCard = ({ data, onClick, idList }) => {
+  const { tweets, followers, avatar, id } = data;
+
   return (
     <li className={s.item}>
       <img className={s.logo} src={logo} alt="logo" />
@@ -15,8 +16,13 @@ export const UserCard = ({ data }) => {
         </div>
       </div>
       <p className={s.tweets}>{trallingComa(tweets)} tweets</p>
-      <p className={s.followers}>{trallingComa(followers)} Followers</p>
-      <Button />
+      <p className={s.followers}>
+        {isChecked(idList, id)
+          ? trallingComa(followers + 1)
+          : trallingComa(followers)}
+        Followers
+      </p>
+      <Button onClick={() => onClick(id)} checked={isChecked(idList, id)} />
     </li>
   );
 };
