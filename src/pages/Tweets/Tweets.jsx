@@ -26,7 +26,9 @@ const Tweets = () => {
   return (
     <>
       <div className={s.navbar}>
-        <Button text={'go back'} onClick={handleGoBack} />
+        <div>
+          <Button text={'go back'} onClick={handleGoBack} />
+        </div>
         <Filter />
       </div>
       <UserList />

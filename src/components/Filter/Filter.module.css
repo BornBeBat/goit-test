@@ -1,9 +1,10 @@
 .wrapper {
+  min-width: 160px;
   position: relative;
   display: inline-flex;
-  gap: 15px;
+  justify-content: space-between;
   margin-bottom: 15px;
-  padding: 15px 24px;
+  padding: 15px 36px 15px 20px;
   border-radius: 10px;
 
   background-color: #ebd8ff;
@@ -18,6 +19,13 @@
 
 .wrapperChecked {
   background-color: #5cd3a8;
+}
+
+.icon {
+  position: absolute;
+  top: 24px;
+  right: 6px;
+  transform: translateY(-50%);
 }
 
 .text {

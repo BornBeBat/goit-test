@@ -1,7 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import { usersReducer } from './user/user-slise';
+import { usersReducer } from './user';
+import { filterReducer } from './filter';
 
 export const store = configureStore({
-  reducer: { users: usersReducer },
+  reducer: {
+    users: usersReducer,
+    filter: filterReducer,
+  },
 });
