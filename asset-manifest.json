@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goit-test/static/css/main.f0a230f2.css",
+    "main.css": "/goit-test/static/css/main.8035511d.css",
     "main.js": "/goit-test/static/js/main.f52b5323.js",
     "static/css/167.d4fa72b6.chunk.css": "/goit-test/static/css/167.d4fa72b6.chunk.css",
     "static/js/167.faf36310.chunk.js": "/goit-test/static/js/167.faf36310.chunk.js",
@@ -11,7 +11,7 @@
     "static/media/fone.png": "/goit-test/static/media/fone.b186e544641a66e17d83.png",
     "static/media/ellipse.svg": "/goit-test/static/media/ellipse.77f9a8484aa5bbe7fb8d.svg",
     "index.html": "/goit-test/index.html",
-    "main.f0a230f2.css.map": "/goit-test/static/css/main.f0a230f2.css.map",
+    "main.8035511d.css.map": "/goit-test/static/css/main.8035511d.css.map",
     "main.f52b5323.js.map": "/goit-test/static/js/main.f52b5323.js.map",
     "167.d4fa72b6.chunk.css.map": "/goit-test/static/css/167.d4fa72b6.chunk.css.map",
     "167.faf36310.chunk.js.map": "/goit-test/static/js/167.faf36310.chunk.js.map",
@@ -19,7 +19,7 @@
     "740.2597200f.chunk.js.map": "/goit-test/static/js/740.2597200f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0a230f2.css",
+    "static/css/main.8035511d.css",
     "static/js/main.f52b5323.js"
   ]
 }
