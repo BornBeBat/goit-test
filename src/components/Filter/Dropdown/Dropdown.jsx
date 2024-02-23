@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 
-import { setFilter } from 'myRedux/filter';
+import { setFilter } from 'myRedux';
 
 import s from './Dropdown.module.css';
 

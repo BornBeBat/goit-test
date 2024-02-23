@@ -1,12 +1,8 @@
-import { Button, UserCard } from 'components';
 import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
-import {
-  fetchUsers,
-  selectError,
-  selectIsLoading,
-  selectUsers,
-} from 'myRedux/user';
+
+import { fetchUsers, selectError, selectIsLoading, selectUsers } from 'myRedux';
+import { Button, UserCard } from 'components';
 import { useLocalStorage, useFilter } from 'hooks';
 
 import s from './UserList.module.css';

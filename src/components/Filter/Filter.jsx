@@ -1,10 +1,11 @@
 import { useRef, useState } from 'react';
-import { RiArrowDropDownLine, RiArrowDropUpLine } from 'react-icons/ri';
 import { useSelector } from 'react-redux';
 import classNames from 'class-names';
+import { RiArrowDropDownLine, RiArrowDropUpLine } from 'react-icons/ri';
 
 import { Dropdown } from './Dropdown/Dropdown';
-import { selectFilter } from 'myRedux/filter';
+import { selectFilter } from 'myRedux';
+
 import s from './Filter.module.css';
 
 export const Filter = () => {

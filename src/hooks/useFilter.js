@@ -1,7 +1,6 @@
 import { useSelector } from 'react-redux';
 
-import { selectFilter } from 'myRedux/filter';
-import { selectUsers } from 'myRedux/user';
+import { selectFilter, selectUsers } from 'myRedux';
 
 export const useFilter = idList => {
   const users = useSelector(selectUsers);

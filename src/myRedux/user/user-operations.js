@@ -21,7 +21,7 @@ Sorry, you've reached the end of the collection.`);
       }
       return response.data;
     } catch (error) {
-      return thunkAPI.rejectWithValue(error.message);
+      return thunkAPI.rejectWithValue('something wrong try again later');
     }
   }
 );

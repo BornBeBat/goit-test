@@ -1,6 +1,8 @@
 import React from 'react';
-import follov from 'img/follow.png';
+
 import s from './Home.module.css';
+
+import follov from 'img/follow.png';
 
 const Home = () => {
   return (

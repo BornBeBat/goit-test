@@ -1,8 +1,9 @@
-import logo from 'img/logo.png';
-
 import { trallingComa, isChecked } from 'utils';
 import { Button } from 'components';
+
 import s from './UserCard.module.css';
+
+import logo from 'img/logo.png';
 
 export const UserCard = ({ data, onClick, idList }) => {
   const { tweets, followers, avatar, id } = data;

@@ -3,9 +3,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 import { UserList, Filter, Button } from 'components';
-import { fetchUsers, selectUsers } from 'myRedux/user';
+import { fetchUsers, selectUsers } from 'myRedux';
 
 import s from './Tweets.module.css';
+import { toast } from 'react-toastify';
 
 const Tweets = () => {
   const dispatch = useDispatch();
@@ -16,7 +17,10 @@ const Tweets = () => {
 
   useEffect(() => {
     if (users?.length >= 3) return;
-    dispatch(fetchUsers());
+    dispatch(fetchUsers())
+      .unwrap()
+      .then()
+      .catch(error => toast.error(error));
   }, [dispatch, users]);
 
   const handleGoBack = () => {
