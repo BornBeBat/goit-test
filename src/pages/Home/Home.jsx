@@ -2,12 +2,14 @@ import React from 'react';
 
 import s from './Home.module.css';
 
-import follov from 'img/follow.webp';
-
 const Home = () => {
   return (
     <section className={s.container}>
-      <img src={follov} alt="card preview" width={420} />
+      <img
+        src={`${process.env.PUBLIC_URL}/follow.webp`}
+        alt="card preview"
+        width={420}
+      />
       <div className={s.introWrapper}>
         <h1 className={s.title}>Go It test task</h1>
         <p className={s.text}>
