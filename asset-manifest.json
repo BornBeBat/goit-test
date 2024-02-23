@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/goit-test/static/css/main.f0a230f2.css",
-    "main.js": "/goit-test/static/js/main.b6e924f3.js",
+    "main.js": "/goit-test/static/js/main.f52b5323.js",
     "static/css/167.d4fa72b6.chunk.css": "/goit-test/static/css/167.d4fa72b6.chunk.css",
     "static/js/167.faf36310.chunk.js": "/goit-test/static/js/167.faf36310.chunk.js",
     "static/css/740.9f2eefae.chunk.css": "/goit-test/static/css/740.9f2eefae.chunk.css",
-    "static/js/740.b976cf57.chunk.js": "/goit-test/static/js/740.b976cf57.chunk.js",
+    "static/js/740.2597200f.chunk.js": "/goit-test/static/js/740.2597200f.chunk.js",
     "static/media/Montserrat-SemiBold.ttf": "/goit-test/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Medium.ttf": "/goit-test/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
     "static/media/fone.png": "/goit-test/static/media/fone.b186e544641a66e17d83.png",
     "static/media/ellipse.svg": "/goit-test/static/media/ellipse.77f9a8484aa5bbe7fb8d.svg",
     "index.html": "/goit-test/index.html",
     "main.f0a230f2.css.map": "/goit-test/static/css/main.f0a230f2.css.map",
-    "main.b6e924f3.js.map": "/goit-test/static/js/main.b6e924f3.js.map",
+    "main.f52b5323.js.map": "/goit-test/static/js/main.f52b5323.js.map",
     "167.d4fa72b6.chunk.css.map": "/goit-test/static/css/167.d4fa72b6.chunk.css.map",
     "167.faf36310.chunk.js.map": "/goit-test/static/js/167.faf36310.chunk.js.map",
     "740.9f2eefae.chunk.css.map": "/goit-test/static/css/740.9f2eefae.chunk.css.map",
-    "740.b976cf57.chunk.js.map": "/goit-test/static/js/740.b976cf57.chunk.js.map"
+    "740.2597200f.chunk.js.map": "/goit-test/static/js/740.2597200f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0a230f2.css",
-    "static/js/main.b6e924f3.js"
+    "static/js/main.f52b5323.js"
   ]
 }
