@@ -20,7 +20,7 @@ const Tweets = () => {
     dispatch(fetchUsers())
       .unwrap()
       .then()
-      .catch(error => toast.error(error));
+      .catch(error => toast.error(error.message));
   }, [dispatch, users]);
 
   const handleGoBack = () => {

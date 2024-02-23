@@ -31,7 +31,7 @@ export const UserList = () => {
       .unwrap()
       .catch(error => {
         if (error !== null) {
-          toast.warning(error);
+          toast.warning(error.message);
         }
       });
   };

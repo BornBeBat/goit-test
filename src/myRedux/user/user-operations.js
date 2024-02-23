@@ -15,13 +15,17 @@ export const fetchUsers = createAsyncThunk(
       const response = await instance.get('/contacts', {
         params: { page: page },
       });
-      if (response.data.length === 0) {
-        return thunkAPI.rejectWithValue(`
-Sorry, you've reached the end of the collection.`);
+      if (response.data.length < 3) {
+        return thunkAPI.rejectWithValue({
+          message: `You've reached the end of the collection.`,
+          data: response.data,
+        });
       }
       return response.data;
     } catch (error) {
-      return thunkAPI.rejectWithValue('something wrong try again later');
+      return thunkAPI.rejectWithValue({
+        message: 'something wrong try again later',
+      });
     }
   }
 );

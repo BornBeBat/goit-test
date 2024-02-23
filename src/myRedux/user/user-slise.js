@@ -22,8 +22,10 @@ export const usersSlise = createSlice({
         state.error = null;
       })
       .addCase(fetchUsers.rejected, (state, action) => {
+        const { data = [], message } = action.payload;
         state.isLoading = false;
-        state.error = action.payload;
+        state.users = [...state.users, ...data];
+        state.error = message;
       });
   },
   selectors: {
