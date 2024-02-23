@@ -2,7 +2,7 @@ import React from 'react';
 
 import s from './Home.module.css';
 
-import follov from 'img/follow.png';
+import follov from 'img/follow.webp';
 
 const Home = () => {
   return (
