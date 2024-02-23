@@ -24,7 +24,7 @@ const Tweets = () => {
   };
 
   return (
-    <>
+    <section className={s.container}>
       <div className={s.navbar}>
         <div>
           <Button text={'go back'} onClick={handleGoBack} />
@@ -32,7 +32,7 @@ const Tweets = () => {
         <Filter />
       </div>
       <UserList />
-    </>
+    </section>
   );
 };
 
