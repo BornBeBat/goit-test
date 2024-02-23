@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/goit-test/static/css/main.f0a230f2.css",
-    "main.js": "/goit-test/static/js/main.c7b36d24.js",
-    "static/css/782.13aae538.chunk.css": "/goit-test/static/css/782.13aae538.chunk.css",
-    "static/js/782.8c7ff964.chunk.js": "/goit-test/static/js/782.8c7ff964.chunk.js",
+    "main.js": "/goit-test/static/js/main.f2bfbdbc.js",
+    "static/css/916.cd691544.chunk.css": "/goit-test/static/css/916.cd691544.chunk.css",
+    "static/js/916.2ffa3c27.chunk.js": "/goit-test/static/js/916.2ffa3c27.chunk.js",
     "static/css/740.9f2eefae.chunk.css": "/goit-test/static/css/740.9f2eefae.chunk.css",
     "static/js/740.b976cf57.chunk.js": "/goit-test/static/js/740.b976cf57.chunk.js",
-    "static/media/follow.png": "/goit-test/static/media/follow.088c6295cbb7257ee80e.png",
     "static/media/Montserrat-SemiBold.ttf": "/goit-test/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Medium.ttf": "/goit-test/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
+    "static/media/follow.webp": "/goit-test/static/media/follow.00f90637110f62c843d2.webp",
     "static/media/fone.png": "/goit-test/static/media/fone.b186e544641a66e17d83.png",
     "static/media/ellipse.svg": "/goit-test/static/media/ellipse.77f9a8484aa5bbe7fb8d.svg",
     "index.html": "/goit-test/index.html",
     "main.f0a230f2.css.map": "/goit-test/static/css/main.f0a230f2.css.map",
-    "main.c7b36d24.js.map": "/goit-test/static/js/main.c7b36d24.js.map",
-    "782.13aae538.chunk.css.map": "/goit-test/static/css/782.13aae538.chunk.css.map",
-    "782.8c7ff964.chunk.js.map": "/goit-test/static/js/782.8c7ff964.chunk.js.map",
+    "main.f2bfbdbc.js.map": "/goit-test/static/js/main.f2bfbdbc.js.map",
+    "916.cd691544.chunk.css.map": "/goit-test/static/css/916.cd691544.chunk.css.map",
+    "916.2ffa3c27.chunk.js.map": "/goit-test/static/js/916.2ffa3c27.chunk.js.map",
     "740.9f2eefae.chunk.css.map": "/goit-test/static/css/740.9f2eefae.chunk.css.map",
     "740.b976cf57.chunk.js.map": "/goit-test/static/js/740.b976cf57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0a230f2.css",
-    "static/js/main.c7b36d24.js"
+    "static/js/main.f2bfbdbc.js"
   ]
 }
