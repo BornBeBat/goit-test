@@ -11,6 +11,7 @@
   text-transform: uppercase;
   color: #373737;
   transition: all 350ms ease-in;
+  cursor: pointer;
 
   &:disabled {
     background: grey;
